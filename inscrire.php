@@ -1,4 +1,7 @@
-﻿    <!DOCTYPE HTML>
+﻿<?php
+require "inc_config.php";
+?>
+    <!DOCTYPE HTML>
 
 <html>
 

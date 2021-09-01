@@ -12,9 +12,9 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 --
 -- Base de données: `inscription`
 --
-
+create database if not exists inscription default character set utf8 collate utf8_general_ci;
 -- --------------------------------------------------------
-
+use inscription;
 --
 -- Structure de la table `compte`
 --

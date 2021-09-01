@@ -1,4 +1,7 @@
-﻿<!DOCTYPE HTML>
+﻿<?php
+require "inc_config.php";
+?>
+<!DOCTYPE HTML>
 
 <html>
 
@@ -18,17 +21,17 @@
         <hr style="width: 100%; height: 10px">
          <center>
              <section>
-                   <div class="inscrire"><a href="inscrire.php" ><img src="images/inscription.jpg" width="256" height="200" alt="Logo Inscription"></a></div>
+                   <div class="inscrire"><a href="inscrire.php" ><img src="images/inscription.jpg" width="256" height="200" alt="Logo Inscription"> Inscription</a></div>
                    <br><br><br>
 
 
-                 <div class="modifier"><div><a href="modifier.php"><img src="images/modifier.png" width="220" height="200" alt="Logo Modifier"></a></div>
+                 <div class="modifier"><div><a href="modifier.php"><img src="images/modifier.png" width="220" height="200" alt="Logo Modifier"> modifier</a></div>
                  <h3>MODIFIER</h3> </div>
 
-                 <div class="supprimer"><div><a href="supprimer.php"><img src="images/supprimer.png" width="256" height="256" alt="Logo Supprimer"></a></div>
+                 <div class="supprimer"><div><a href="supprimer.php"><img src="images/supprimer.png" width="256" height="256" alt="Logo Supprimer"> Supprimer</a></div>
                  <h3>SUPPRIMER</h3> </div>
 
-                 <div class="afficher"><div><a href="liste.php"><img src="images/afficher.png" width="220" height="220" alt="Logo Afficher"></a></div>
+                 <div class="afficher"><div><a href="liste.php"><img src="images/afficher.png" width="220" height="220" alt="Logo Afficher"> Afficher</a></div>
                  <h3>AFFICHER</h3> </div>
                </div>
 
